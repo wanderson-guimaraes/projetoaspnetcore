@@ -2,7 +2,7 @@ using System;
 
 namespace WebApplication1.Models
 {
-    public class ErrorViewModel
+    public class ErrorViewModelnovo
     {
         public string RequestId { get; set; }
 
