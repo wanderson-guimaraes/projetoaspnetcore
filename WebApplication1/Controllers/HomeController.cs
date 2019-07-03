@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
+using WebApplication1.Models.ViewModels;
 
 namespace WebApplication1.Controllers
 {
@@ -17,8 +18,9 @@ namespace WebApplication1.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Bem vindo,seu troxa";
+            ViewData["Email"] = "wandersongui@gmail.com";
+            ViewData["quemsoueu"] = "Wanderson";
             return View();
         }
 
